@@ -16,24 +16,14 @@ brew
 brew install go
 ```
 
-## Lesson01
+## Lesson02
 
-実行
+変数宣言
 
-```
-go run hello.go
-```
-
-コンパイル
-
-```
-go build hello.go
-```
-
-`hello`というファイルができる
-
-それを実行
-
-```
-./hello
-```
+- 型をつける
+- 型の省略
+- 複数宣言
+- 関数内の再宣言（初期化）
+- 定数宣言
+- string 型, int 型
+- int 型の初期値
