@@ -16,9 +16,11 @@ brew
 brew install go
 ```
 
-## Lesson02
+## Lesson04
 
-if 文
+for 文
 
-- if 文
-- 他の書き方
+- for 文
+- 他繰り返しの書き方
+- 無限ループ
+- breake, continue
