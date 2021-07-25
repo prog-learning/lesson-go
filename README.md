@@ -16,7 +16,7 @@ brew
 brew install go
 ```
 
-## Lesson02
+## Lesson03
 
 if 文
 
