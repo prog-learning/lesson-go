@@ -21,12 +21,12 @@ func main() {
 	fmt.Println(hello)
 
 	/* printf ...フォーマットを使用 */
+	myName := "Steve nobs"
+	myAge := 200
 	fmt.Printf("myName of type is %T.\n", myName)
 	fmt.Printf("myAge of type is %T.", myAge)
 
 	/* 組み合わせてみる */
-	myName := "Steve nobs"
-	myAge := 200
 	introduce := fmt.Sprintf("My name is %v . %v years old", myName, myAge)
 	fmt.Println(introduce)
 }
