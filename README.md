@@ -4,6 +4,7 @@ Go 言語を学ぶ
 
 ## Reference
 
+https://golang.org/
 https://qiita.com/tenntenn/items/0e33a4959250d1a55045
 https://gihyo.jp/dev/feature/01/go_4beginners
 https://astaxie.gitbooks.io/build-web-application-with-golang/content/ja/
@@ -28,7 +29,7 @@ Go は Prettier がきかないので,Go の拡張機能を install し,以下�
 },
 ```
 
-## 基本知識
+## Go command
 
 実行
 
@@ -44,6 +45,8 @@ go fmt ファイル名
 
 ## Lessons
 
-- Lesson01
-  Hello world
-- Lesson02
+- 01.Hello world と print
+- 02.変数宣言
+- 03.配列
+- 04.if 文
+- 05.for 文
