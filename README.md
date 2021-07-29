@@ -16,6 +16,20 @@ brew
 brew install go
 ```
 
+## 基本知識
+
+実行
+
+```
+go run ファイル名
+```
+
+コードフォーマット
+
+```
+go fmf ファイル名
+```
+
 ## Lessons
 
 - Lesson01
