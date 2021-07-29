@@ -1,10 +1,10 @@
-/* Hello World */
-
 package main
 
 import "fmt"
 
-// 文字列は"..."で囲まれている
+/* Hello World */
+
+// 文字列は"..."で囲む
 // '...'は不可
 
 func main() {
@@ -16,14 +16,19 @@ func main() {
 	fmt.Println("hello, Println1")
 	fmt.Println("hello, Println2")
 
-	/* Sprint ...フォーマット化された文字列を返す */
+	/* Sprint ...文字列を返す */
 	hello := fmt.Sprintln("Hello", "world!")
-	fmt.Print(hello)
+	fmt.Println(hello)
 
-	myName := "nobs"
+	/* printf ...フォーマットを使用 */
+	fmt.Printf("myName of type is %T.\n", myName)
+	fmt.Printf("myAge of type is %T.", myAge)
+
+	/* 組み合わせてみる */
+	myName := "Steve nobs"
 	myAge := 200
 	introduce := fmt.Sprintf("My name is %v . %v years old", myName, myAge)
-	fmt.Print(introduce)
+	fmt.Println(introduce)
 }
 
 // 参考
