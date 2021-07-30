@@ -34,6 +34,24 @@ func main() {
 			continue
 		}
 	}
+
+	/* 配列に繰り返し処理 */
+	animals := [3]string{"cat", "dog", "pig"}
+
+	// for文で配列の要素を取り出す
+	for i := 0; i < len(animals); i++ {
+		fmt.Println(animals[i])
+	}
+
+	// for文で配列を反復処理
+	for index, value := range animals {
+		fmt.Printf("%v番目の要素は%v\n", index, value)
+	}
+
+	// indexを省略可
+	for _, value := range animals {
+		fmt.Println(value)
+	}
 }
 
 // 省略形などの書き方はない
