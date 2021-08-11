@@ -40,4 +40,5 @@ func main() {
 
 	initial1, initial2 := getInitial("pien pien")
 	fmt.Printf("%v.%v", initial1, initial2)
+
 }
