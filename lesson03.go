@@ -1,12 +1,14 @@
+/*
+	03. 配列
+	scriptの実行: $ go run lesson03.go
+*/
 package main
 
 import "fmt"
 
-/* 配列 */
-
 func main() {
 	var arr [5]int = [5]int{1, 2, 3, 4, 5}
-	// [5]int ...int型で要素数が5の配列の型
+	// [5]int ...int型で要素数が5の配列の型（要素数は固定）
 	// [5]int{1, 2, 3, 4, 5} ...int型で要素数が5の配列を作成
 	fmt.Println(arr)
 

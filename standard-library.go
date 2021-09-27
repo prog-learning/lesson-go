@@ -1,5 +1,12 @@
+/*
+	10. ライブラリの使用
+	scriptの実行: $ go run lesson10.go
+*/
 package main
 
+/* 標準で搭載しているライブラリを使ってみる */
+
+/* 使うものはインポートする */
 import (
 	"fmt"
 	"sort"
