@@ -7,22 +7,38 @@ package main
 
 import (
 	"fmt"
-	"log"
 	"net/http"
 )
 
-func homePage(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Welcome to the HomePage!")
-	fmt.Println("Endpoint Hit: homePage")
+/* Responseに使用する関数 */
+func hello(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprint(w, "Hello World from Golang") // 書き込み先をwに指定する書き方（https://pkg.go.dev/fmt#Fprintf）
 }
 
-func handleRequests() {
-	http.HandleFunc("/", homePage)
-	log.Fatal(http.ListenAndServe(":8080", nil))
+type Hello string
+
+// Helloに ServeHTTP 関数を追加
+/* この書き方なに！？ */
+func (value Hello) ServeHTTP(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprint(w, value)
 }
 
 func main() {
-	handleRequests()
+	/* エンドポイントの作成 */
+	http.HandleFunc("/", hello) // (Endpoint, ハンドリングする処理)を指定する
+	// 無名関数を使用
+	http.HandleFunc("/lang", func(w http.ResponseWriter, r *http.Request) {
+		fmt.Fprint(w, "Golang")
+	})
+	// 第2引数に引数を使いたい場合
+	http.Handle("/big", Hello("HELLO"))
+
+	/* サーバーの起動（最後に書く） */
+	fmt.Println("lesten http://localhost:8080")
+	http.ListenAndServe(":8080", nil)
+
 }
 
-// 参考：https://qiita.com/entaku0818/items/c29add790718c215381e
+// 参考
+// https://www.yoheim.net/blog.php?q=20170403
+// https://qiita.com/entaku0818/items/c29add790718c215381e

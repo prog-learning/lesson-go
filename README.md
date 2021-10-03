@@ -2,6 +2,8 @@
 
 Go 言語を学ぶ
 
+各ファイルで main 関数を定義しているので,重複していてエラーが出ますが,大切なことは気にしないことです.
+
 ## References
 
 - https://golang.org/
@@ -30,6 +32,8 @@ Go は Prettier がきかないので,Go の拡張機能を install し,以下�
 },
 ```
 
+これで自動整形ができるようになった.
+
 ## Go command
 
 実行
@@ -46,8 +50,13 @@ go fmt ファイル名
 
 ## Lessons
 
-- 01.Hello world と print
-- 02.変数宣言
-- 03.配列
-- 04.if 文
-- 05.for 文
+1. Hello world と print
+2. 変数宣言
+3. 配列
+4. if 文
+5. for 文
+6. 関数
+7. map (オブジェクト)
+8. switch 文
+9. pointer
+10. http
