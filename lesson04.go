@@ -58,6 +58,24 @@ Initialized:
 SecondPhase:
 	fmt.Println("2.ケチャップをかける")
 	fmt.Println("3.完成")
+
+	/* 関数と組み合わせてみる */
+	judge := func(score int) (bool, string) {
+		if score >= 60 {
+			return true, "合格"
+		} else {
+			return false, "不合格"
+		}
+		return false, ""
+	}
+
+	/* judge(70)を実行した結果のresultで判定する */
+	if result, message := judge(70); result {
+		fmt.Printf("受け取ったメッセージは %v です\n", message)
+	} else {
+		fmt.Printf("受け取ったメッセージは %v です\n", message)
+	}
+
 }
 
 // MEMO
