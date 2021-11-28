@@ -11,17 +11,20 @@ import "fmt"
 	文字列は
 	"..."で囲む（ダブルクォーテーション○）
 	'...'は不可（シングルクォーテーション×）
+	出力の書き方がいっぱいあるので理解したものから使っていこう
 */
 
 /* goのファイルは常にmain()という関数が,書かれており,それが実行される仕組みである */
 func main() {
 	/* Print ...出力 */
-	fmt.Print("hello, ")
-	fmt.Print("world.\n") // `\n` をつけないと改行されない
+	fmt.Print("hello")
+	fmt.Print("world.(改行されない)\n")         // `\n` をつけないと改行されない
+	fmt.Print("hello", "world", "!!\n")   // `,`で結合できる
+	fmt.Print("hello" + "world" + "!!\n") // `+`でも結合できる
 
-	/* Println ...改行が含まれる 常用しそう */
-	fmt.Println("hello, Println1")
-	fmt.Println("hello, Println2")
+	/* Println ...改行が含まれる 常用しそう 変数入れる場合は結合子 */
+	fmt.Println("hello world. Println1")
+	fmt.Println("hello", "world.", "Println2") // `,`で結合した際にはスペースが入る
 
 	/* Sprint ...文字列を返す */
 	hello1 := fmt.Sprint("Sprint", "Hello", "world!", "複数可能", "スペースが入らない")
