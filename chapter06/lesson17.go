@@ -1,6 +1,6 @@
 /*
-	05. for文（while文は存在しない）
-	scriptの実行: $ go run lesson05.go
+	06_2. for文（while文は存在しない）
+	scriptの実行: $ go run chapter06/lesson17.go
 */
 package main
 
@@ -24,7 +24,6 @@ func main() {
 	}
 
 	/* break と continue */
-
 	var dice int
 	for { // 全オプションを省略（永遠にループ）
 		dice = rand.Intn(6) + 1 // 1~6のランダムな数字を生成

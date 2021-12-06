@@ -1,6 +1,6 @@
 /*
-	08. Switch文
-	scriptの実行: $ go run lesson08.go
+	06_1. Switch文
+	scriptの実行: $ go run chapter06/lesson16.go
 */
 package main
 

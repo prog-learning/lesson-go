@@ -1,8 +1,8 @@
 package main
 
 /*
-	10. サーバーを起動する
-	scriptの実行: $ go run lesson10.go
+	11. サーバーを起動する
+	scriptの実行: $ go run lesson11.go
 */
 
 import (

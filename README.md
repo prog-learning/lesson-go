@@ -16,7 +16,7 @@ Go 言語を学ぶ
 
 公式 https://golang.org/
 
-brew
+brew を使う場合
 
 ```sh
 brew install go

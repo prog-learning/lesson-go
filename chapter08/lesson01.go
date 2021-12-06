@@ -37,10 +37,10 @@ func main() {
 	myName := "Steve nobs"
 	myAge := 200
 	fmt.Printf("myName is %v.", myName)                                  // 変数を出力に組み込む
-	fmt.Printf("myName is %v. %v が大好きです。%v 才\n", myName, "やきいも🍠", myAge) // %vで値が順番に入っていく
-	fmt.Printf("%#v\n %#v\n %#v\n", myName, "やきいも🍠", myAge)              // Goの文法で表示する
+	fmt.Printf("myName is %v. %v が大好きです。%v 才\n", myName, "やきいも🍠", myAge) // %vで値が順番に入っていく感じ
+	fmt.Printf("%#v\n %#v\n %#v\n", myName, "やきいも🍠", myAge)              // Goの文法でそのものを表示する
 	fmt.Printf("%T\n %T\n %T\n", "文字列", 123, false)                      // 型を表示する
-	fmt.Printf("単に%%を記号として出力したいとき")                                      // 記号の%を使いたいとき
+	fmt.Printf("単に%%を記号として出力したいとき")                                      // 記号の%を使いたいときは？
 }
 
 // 参考
