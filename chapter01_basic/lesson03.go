@@ -1,6 +1,6 @@
 /*
 	01_3. 演算子
-	scriptの実行: $ go run chapter01/lesson03.go
+	scriptの実行: $ go run chapter01_basic/lesson03.go
 */
 package main
 

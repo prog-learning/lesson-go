@@ -1,9 +1,8 @@
-package main
-
 /*
 	03_4. Struct（構造体）
-	scriptの実行: $ go run chapter03/lesson09.go
+	scriptの実行: $ go run chapter03_composite/lesson04.go
 */
+package main
 
 import (
 	"fmt"

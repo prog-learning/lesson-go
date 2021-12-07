@@ -1,6 +1,6 @@
 /*
-	05_3. go to文
-	scriptの実行: $ go run chapter05/lesson15.go
+	06_1. go to文
+	scriptの実行: $ go run chapter06_syntax/lesson01.go
 */
 package main
 

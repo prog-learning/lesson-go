@@ -1,6 +1,6 @@
 /*
 	07_1. 関数と引数
-	scriptの実行: $ go run chapter04/lesson10.go
+	scriptの実行: $ go run chapter04_function/lesson01.go
 */
 package main
 

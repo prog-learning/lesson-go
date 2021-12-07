@@ -1,6 +1,6 @@
 /*
 	02_2. 変数の初期化と型について
-	scriptの実行: $ go run chapter02/lesson05.go
+	scriptの実行: $ go run chapter02_variable/lesson02.go
 */
 package main
 

@@ -1,6 +1,6 @@
 /*
 	03_1. 配列
-	scriptの実行: $ go run chapter03/lesson06.go
+	scriptの実行: $ go run chapter03_composite/lesson01.go
 */
 package main
 
@@ -48,3 +48,11 @@ func main() {
 
 /* 補足 */
 // 配列では個数を操作することができない
+/*
+	略記
+	以下同義
+	a[0:10]
+	a[:10]
+	a[0:]
+	a[:]
+*/

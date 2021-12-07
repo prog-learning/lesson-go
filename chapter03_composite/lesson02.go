@@ -1,6 +1,6 @@
 /*
 	03_2. Slice（スライス）
-	scriptの実行: $ go run chapter03/lesson07.go
+	scriptの実行: $ go run chapter03_composite/lesson02.go
 */
 package main
 

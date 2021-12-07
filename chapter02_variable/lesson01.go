@@ -1,6 +1,6 @@
 /*
 	02_1. 変数の宣言
-	scriptの実行: $ go run chapter02/lesson04.go
+	scriptの実行: $ go run chapter02_variable/lesson01go.go
 */
 package main
 

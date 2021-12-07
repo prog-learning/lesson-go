@@ -1,6 +1,6 @@
 /*
-	06_2. for文（while文は存在しない）
-	scriptの実行: $ go run chapter06/lesson17.go
+	05_4. for文（while文は存在しない）
+	scriptの実行: $ go run chapter05_syntax/lesson04.go
 */
 package main
 
@@ -51,6 +51,16 @@ func main() {
 	// for文で配列を反復処理
 	for index, value := range animals { // `range array`で配列arrayのindexと要素を取得
 		fmt.Printf("%v番目の要素は%v\n", index+1, value)
+	}
+
+	// for文でMapを反復処理
+	profile := map[string]string{
+		"name":    "gopher",
+		"species": "gopher",
+		"age":     "5",
+	}
+	for key, value := range profile {
+		fmt.Printf("%v: %v\n", key, value)
 	}
 
 	// indexを省略する場合

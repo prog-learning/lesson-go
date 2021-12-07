@@ -1,6 +1,6 @@
 /*
 	05_2. if文
-	scriptの実行: $ go run chapter05/lesson14.go
+	scriptの実行: $ go run chapter05_syntax/lesson02.go
 */
 package main
 

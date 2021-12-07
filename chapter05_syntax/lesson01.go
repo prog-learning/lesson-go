@@ -1,6 +1,6 @@
 /*
 	05_1. 条件演算子と論理演算子
-	scriptの実行: $ go run chapter05/lesson13.go
+	scriptの実行: $ go run chapter05_syntax/lesson01.go
 */
 package main
 

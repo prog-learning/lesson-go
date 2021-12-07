@@ -1,6 +1,6 @@
 /*
 	01_2. Consoleに出力する
-	scriptの実行: $ go run chapter01/lesson02.go
+	scriptの実行: $ go run chapter01_basic/lesson02.go
 */
 package main
 

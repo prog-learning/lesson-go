@@ -1,6 +1,6 @@
 /*
 	07_2. 関数と戻り値
-	scriptの実行: $ go run chapter04/lesson11.go
+	scriptの実行: $ go run chapter04_function/lesson02.go
 */
 package main
 

@@ -1,6 +1,6 @@
 /*
 	01_1. 基礎知識
-	scriptの実行: $ go run chapter01/lesson01.go
+	scriptの実行: $ go run chapter01_basic/lesson01.go
 */
 
 /* package宣言層 */

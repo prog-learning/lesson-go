@@ -1,6 +1,6 @@
 /*
 	07_3. メソッド
-	scriptの実行: $ go run chapter04/lesson12.go
+	scriptの実行: $ go run chapter04_function/lesson03.go
 */
 package main
 

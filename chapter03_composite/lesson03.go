@@ -1,6 +1,6 @@
 /*
-	03_3. map（マップ）
-	scriptの実行: $ go run chapter03/lesson08.go
+	03_3. Map（マップ）
+	scriptの実行: $ go run chapter03_composite/lesson03.go
 */
 package main
 
