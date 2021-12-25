@@ -20,7 +20,7 @@ func defer_test() {
 /* defer のスタック */
 func defer_stack() {
 	for i := 0; i < 5; i++ {
-		defer fmt.Println(i)
+		defer fmt.Println(i) // 処理が蓄積されていく
 	}
 	fmt.Println("これから溜まった defer の処理を実行します")
 	// 溜まった処理の順番に注目 First In Last Out となる

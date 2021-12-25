@@ -50,13 +50,26 @@ go fmt ファイル名
 
 ## Lessons
 
-1. Hello world と print
-2. 変数宣言
-3. 配列
-4. if 文
-5. for 文
-6. 関数
-7. map (オブジェクト)
-8. switch 文
-9. pointer
-10. http
+- 基本的な知識
+- コンソールに表示する
+- 変数
+- 配列
+- スライス
+- Map マップ
+- Struct（構造体）
+- if 文
+- switch 文
+- for 文
+- defer 文
+- goto 文
+- 関数
+- レシーバと構造体メソッド
+- 即時関数
+- ポインタ
+- ポインタを使った構造体
+- パッケージ
+  - fmt
+  - math
+  - strings
+- 並行処理（channel と goroutine）
+- net/http
